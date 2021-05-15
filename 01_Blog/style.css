@@ -1,0 +1,82 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: green;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: blue;
+  font-size: 20px;
+}
+
+.main {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.author {
+  color: rgba(19, 80, 116, 0.678);
+  font-size: 30px;
+  float: left;
+  margin: 20px 0 0 10px;
+}
+
+.container {
+  width: 1140px;
+  margin: 20px auto 0 auto;
+}
+
+.blog-post {
+  width: 72%;
+  float: left;
+  padding-right: 30px;
+  position: relative;
+}
+
+.other-post {
+  width: 25%;
+  float: left;
+}
+
+.author-box {
+  padding-top: 20px;
+  border-top: 1px solid rgb(99, 99, 99);
+}
+
+.other {
+  margin-bottom: 40px;
+}
+
+.author-box img {
+  height: 100px;
+  width: 100px;
+  border-radius: 40%;
+  float: left;
+}
+
+.blog-post img {
+  height: 150px;
+  width: auto;
+}
+
+.date {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}
