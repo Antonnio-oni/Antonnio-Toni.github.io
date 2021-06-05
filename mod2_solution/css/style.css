@@ -10,10 +10,6 @@ h1 {
   color: blue;
 }
 
-p {
-  margin-top: 30px;
-}
-
 .s1,
 .s2,
 .s3 {
@@ -34,11 +30,11 @@ p {
   background-color: chartreuse;
   padding: 5px;
   border: 2px solid black;
-  width: 52px;
+  width: 90px;
   height: 30px;
-  position: absolute;
-  margin-bottom: 50px;
-  left: 400px;
+  position: relative;
+  margin-bottom: 5px;
+  left: 355px;
 }
 
 .label2 {
